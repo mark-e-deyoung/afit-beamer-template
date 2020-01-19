@@ -30,6 +30,7 @@
 \end{frame}
 
 \section{Samples}
+\subsection{Basic}
 \begin{frame}
   \frametitle{Amazing revelations!}
   \begin{itemize}
@@ -61,5 +62,42 @@
    \end{tabular}
    \end{center}
 \end{frame}
+
+\subsection{A bit more advanced}
+\begin{frame}
+  \frametitle{Two Column Output}
+  \begin{columns}[c]
+  \column{1.5in}
+    Practical \TeX\ 2005\\
+    Practical \TeX\ 2005\\
+    Practical \TeX\ 2005
+    
+  \column{1.5in}
+  \framebox{\includegraphics[width=1.5in]{USAF-symbol}}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Structuring a Frame}
+
+  \begin{block}{Answered Questions}
+    How many primes are there?
+  \end{block}
+  
+  \begin{block}{Open Questions}
+    Is every even number the sum of two primes?
+    \cite{Goldbach1742}
+  \end{block}
+
+  \end{frame}
+  
+\section*{Bibliography}
+\begin{frame}
+  \frametitle{Bibliography}
+   \begin{thebibliography}{10}
+    \bibitem{Goldbach1742}[Goldbach, 1742] Christian Goldbach.\newblock A problem we should try to solve before the ISPN '43 deadline,\newblock \emph{Letter to Leonhard Euler}, 1742.
+    \end{thebibliography} 
+\end{frame}  
+
 
 \end{document}
